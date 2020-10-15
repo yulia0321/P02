@@ -184,9 +184,6 @@ footer #site_map ul li{
 /*Table Design*/
 
 body {
- padding: 6rem;
- font-family: 'Markazi Text', serif;
- margin: 0;
 }
 
 div {
@@ -194,19 +191,19 @@ div {
     margin-right: 1rem;
 }
 
-div.table{
-    padding: 0rem;
+div.Contents{
+    padding: 5%;
     font-family: 'Markazi Text', serif;
+    font-size: 16px;
     margin: 0;
     float:left;
     margin-right: 1rem;
 }
 
 div.bookCover {
-    margin-left: 3rem;
+    margin:2rem;
     margin-bottom: 3rem;
 }
-
 
 bookcover {
   max-width: 100px;
