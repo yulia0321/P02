@@ -1,4 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Parisienne&family=Roboto:wght@300;400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Markazi+Text:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Peddana&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gupter:wght@500&display=swap');
 
 /*Reset*/
 *{
@@ -46,7 +49,7 @@ header #search_bar input[type=text]{
     width: 400px;
 
     font-size: 14px;
-    line-height: 18px; 
+    line-height: 18px;
     color: #57218F; /* color of the inputed text*/
 
     background-color: transparent;
@@ -175,14 +178,15 @@ footer #site_map {
 }
 
 footer #site_map ul li{
-    
+
 }
 
-<<<<<<< Updated upstream
 /*Table Design*/
 
 body {
-
+ padding: 6rem;
+ font-family: 'Markazi Text', serif;
+ margin: 0;
 }
 
 div {
@@ -190,7 +194,7 @@ div {
     margin-right: 1rem;
 }
 
-div.table{ 
+div.table{
     padding: 0rem;
     font-family: 'Markazi Text', serif;
     margin: 0;
@@ -220,14 +224,15 @@ bookcover {
   color: rgb(42, 58, 117);
   background-color: #dbdafb;
   text-decoration: none;
-  transition-property: background-color; 
+  transition-property: background-color;
   transition-duration: 0.5s;
 }
 
 .button-nav:hover, .button-nav:focus {
   background-color: rgb(243, 232, 243);
 }
-=======
+
+
 /*Nav*/
 header #nav{
     width: 100%;
@@ -258,4 +263,3 @@ header #nav ul li a:hover{
     color: #EEEEFF;
     transition: .5s;
 }
->>>>>>> Stashed changes
