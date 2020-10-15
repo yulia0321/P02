@@ -179,3 +179,39 @@ footer #site_map {
 footer #site_map ul{
     
 }
+
+/*Table Design*/
+
+div {
+    float:left;
+    margin-right: 1rem;
+}
+
+div.bookCover {
+    margin-left: 3rem;
+}
+
+
+bookcover {
+  max-width: 100px;
+  height: 150px;
+}
+
+.button-nav {
+  margin-top:0.5rem;
+  display: inline-block;
+  border-radius: 0px;
+  padding-left: 0.67rem;
+  padding-right: 0.67rem;
+  padding-top: 0.25rem;
+  padding-bottom: 0.25rem;
+  color: rgb(42, 58, 117);
+  background-color: #dbdafb;
+  text-decoration: none;
+  transition-property: background-color; 
+  transition-duration: 0.5s;
+}
+
+.button-nav:hover, .button-nav:focus {
+  background-color: rgb(243, 232, 243);
+}
