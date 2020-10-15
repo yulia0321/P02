@@ -172,14 +172,13 @@ footer {
 footer #site_map {
     margin-left: 10%;
     margin-right: 10%;
-
-    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
-footer #site_map ul{
+footer #site_map ul li{
     
 }
 
+<<<<<<< Updated upstream
 /*Table Design*/
 
 body {
@@ -222,3 +221,35 @@ bookcover {
 .button-nav:hover, .button-nav:focus {
   background-color: rgb(243, 232, 243);
 }
+=======
+/*Nav*/
+header #nav{
+    width: 100%;
+    background-color: #EEEEFF;
+}
+
+header #nav ul{
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+header #nav ul li{
+    display: inline-block;
+    width: 19%;
+
+    text-align: center;
+}
+
+header #nav ul li a{
+    color: #57218F;
+    display: block;
+    padding: 15px 0; /*vertical horizontal*/
+}
+
+header #nav ul li a:hover{
+    font-weight: bold bolder;
+    background-color: #57218F;
+    color: #EEEEFF;
+    transition: .5s;
+}
+>>>>>>> Stashed changes
