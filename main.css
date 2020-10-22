@@ -165,26 +165,7 @@ section #slide_wrap #btn .on{
     background-color: #8E8EEA;
 }
 
-/*FOOTER*/
-/*site map*/
-footer {
-    width: 100%;
-    background-color: #EEEEFF;
-}
-
-footer #site_map {
-    margin-left: 10%;
-    margin-right: 10%;
-}
-
-footer #site_map ul li{
-
-}
-
 /*Table Design*/
-
-body {
-}
 
 div {
     float:left;
@@ -230,6 +211,22 @@ bookcover {
 }
 
 
+/*FOOTER*/
+/*site map*/
+footer {
+    width: 100%;
+    background-color: #EEEEFF;
+}
+
+footer #site_map {
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+footer #site_map ul li{
+
+}
+
 /*Nav*/
 header #nav{
     width: 100%;
@@ -259,4 +256,111 @@ header #nav ul li a:hover{
     background-color: #57218F;
     color: #EEEEFF;
     transition: .5s;
+}
+
+
+ /*Banner*/
+.responsiveImg{
+    width: 100%;
+    height: auto;
+}
+
+ ul,li {
+     list-style:none;
+}
+
+  #slide{
+      height:350px;
+      position:relative;
+      overflow:hidden;
+}
+
+  #slide ul{
+      width:400%;
+      height:100%;
+      transition:1s;
+}
+
+  #slide ul:after{
+      content:"";
+      display:block;
+      clear:both;
+}
+
+  #slide li{
+      float:left;
+      width:25%;
+      height:100%;
+}
+
+  #slide li:nth-child(1){
+      background:#faa;
+}
+
+  #slide li:nth-child(2){
+      background:#ffa;
+}
+
+  #slide li:nth-child(3){
+      background:#faF;
+}
+
+  #slide li:nth-child(4){
+      background:#aaf;
+}
+
+  #slide input{
+      display:none;
+}
+
+  #slide label{
+      display:inline-block;
+      vertical-align:middle;
+      width:10px;height:10px;
+      border:2px solid #57218F;
+      background:#fff;
+      transition:0.3s;
+      border-radius:50%;
+      cursor:pointer;
+}
+
+  #slide .pos{
+      text-align:center;
+      position:absolute;
+      bottom: 10px;
+      left:0;
+      width:100%;
+      text-align:center;
+}
+
+  #pos1:checked~ul{
+      margin-left:0%;
+}
+
+  #pos2:checked~ul{
+      margin-left:-100%;
+}
+
+  #pos3:checked~ul{
+      margin-left:-200%;
+}
+
+  #pos4:checked~ul{
+      margin-left:-300%;
+}
+
+  #pos1:checked~.pos>label:nth-child(1){
+      background:#57218F;
+}
+
+  #pos2:checked~.pos>label:nth-child(2){
+      background:#57218F;
+}
+
+  #pos3:checked~.pos>label:nth-child(3){
+      background:#57218F;
+}
+
+  #pos4:checked~.pos>label:nth-child(4){
+      background:#57218F;
 }
