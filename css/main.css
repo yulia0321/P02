@@ -1,5 +1,31 @@
 @import url('https://fonts.googleapis.com/css2?family=Parisienne&family=Roboto:wght@300;400;700&display=swap');
 
+/*Mobile Responsive*/
+@media ( max-width: 600px ) {
+header #logo {
+        margin-top: 8%;
+        margin-bottom: 5%;
+        margin-left: 0%;
+        width: auto;
+        text-align: center;
+    }
+    
+header #search_bar {
+        width: auto;
+    }
+        
+header #nav {
+        float: none;
+        margin-top: 2%;
+        width: auto;
+    }
+        
+    #book {
+        float: none;
+        width: auto;
+    }
+}
+
 /*Reset*/
 *{
     margin: 0;
@@ -24,9 +50,11 @@ a{
 }
 
 /*Logo*/
-header #logo{
-    margin-left: 10%;
-    margin-top: 3%;
+@media (min-width:600px){
+    header #logo{
+        margin-left: 10%;
+        margin-top: 3%;
+    }   
 }
 
 header #logo h1 a{
@@ -35,8 +63,8 @@ header #logo h1 a{
 }
 
 header #logo h1 img{
-    width: 3%;
-    height: 3%;
+    width: 26px;
+    height: auto;
 }
 
 /*Search Bar*/
@@ -296,10 +324,18 @@ section #slide_wrap #btn .on{
 
 
 /*TOP 5*/
+
+.table1{
+    width: 100%;
+    height: auto;
+    margin-right: 10%;
+}
+
 section #top5{
     margin-left: 10%;
     margin-right: 10%;
-    margin-bottom: 3%;
+    margin-bottom: 5%;
+    margin-top: 3%;
 }
 
 section #top5 h2 {
@@ -310,7 +346,7 @@ section #top5 h2 {
 section #top5 li{
     display: inline-block;
     /*width: 19.5%;*/
-    margin-right: 2.2%;
+    margin-right: 0;
 }
 
 section #top5 li:hover img{
@@ -318,8 +354,10 @@ section #top5 li:hover img{
 }
 
 section #top5 li img{
-    width: 200px;
-    height: 265px; 
+    width: 85%;
+    max-width: 200px;
+    height: auto; 
+    max-height: 240px;
 }
 
 section #top5 li a{
@@ -346,12 +384,13 @@ section #latest{
 section #latest h2 {
     color: #57218F;
     margin-bottom: 1%;
+    margin-top: 3%;
 }
 
 section #latest li{
     display: inline-block;
     /*width: 19.5%;*/
-    margin-right: 2.2%;
+    margin-right: 0;
 }
 
 section #latest li:hover img{
@@ -359,8 +398,10 @@ section #latest li:hover img{
 }
 
 section #latest li img{
-    width: 200px;
-    height: 265px; 
+    width: 85%;
+    max-width: 200px;
+    height: auto; 
+    max-height: 240px; 
 }
 
 section #latest li a{
@@ -386,12 +427,13 @@ section #trend{
 section #trend h2 {
     color: #57218F;
     margin-bottom: 1%;
+    margin-top: 3%;
 }
 
 section #trend li{
     display: inline-block;
     /*width: 19.5%;*/
-    margin-right: 2.2%;
+    margin-right: 0;
 }
 
 section #trend li:hover img{
@@ -399,8 +441,10 @@ section #trend li:hover img{
 }
 
 section #trend li img{
-    width: 200px;
-    height: 265px; 
+     width: 85%;
+    max-width: 200px;
+    height: auto; 
+    max-height: 240px;
 }
 
 section #trend li a{
@@ -426,12 +470,13 @@ section #coming{
 section #coming h2 {
     color: #57218F;
     margin-bottom: 1%;
+    margin-top: 3%;
 }
 
 section #coming li{
     display: inline-block;
     /*width: 19.5%;*/
-    margin-right: 2.2%;
+    margin-right: 0;
 }
 
 section #coming li:hover img{
@@ -439,8 +484,10 @@ section #coming li:hover img{
 }
 
 section #coming li img{
-    width: 200px;
-    height: 265px; 
+    width: 85%;
+    max-width: 200px;
+    height: auto; 
+    max-height: 240px;
 }
 
 section #coming li a{
@@ -458,19 +505,19 @@ section #coming li p {
 
 section #coming .comming_btn {
      margin-top: 10%;
+     font-size: 14px;
 }
 
 section #coming .comming_btn a{
     background-color: #EEEEFF;
     color: #57218F;
-
-    padding: 5% 33%;
+    padding: 5% 30%;
+    align-items: center;
 }
 
 section #coming .comming_btn a:hover{
     background-color: #57218F;
     color: #EEEEFF;
-
     transition: 0.5s;
 }
 
