@@ -88,43 +88,43 @@ section #coming .comming_btn {
 }
 
 /*TOP 5*/
-section #top5{
+section #section{
     margin-left: 10%;
     margin-right: 10%;
     margin-bottom: 5%;
     margin-top: 3%;
 }
 
-section #top5 h2 {
+section #section h2 {
     color: #57218F;
     margin-bottom: 1%;
 }
 
-section #top5 li{
+section #section li{
     display: inline-block;
     margin-right: 0;
 }
 
-section #top5 li:hover img{
+section #section li:hover img{
     opacity: 0.7;
 }
 
-section #top5 li img{
+section #section li img{
     width: 85%;
     max-width: 200px;
     height: auto; 
     max-height: 240px;
 }
 
-section #top5 li a{
+section #section li a{
     color: #141414;
 }
 
-section #top5 li h5{
+section #section li h5{
     text-align: center;
  }
 
-section #top5 li p {
+section #section li p {
     text-align: left;
     line-height: 150%;
 }
