@@ -1,0 +1,151 @@
+
+h1,h2,h3{
+    margin-bottom: 1.5%;
+}
+hr{
+    color: #57218F;
+    margin: 3% 0;
+}
+
+/*Logo*/
+header #logo{
+    margin-left: 10%;
+    margin-top: 3%;
+}
+
+header #logo h1 a{
+    color: #57218F;
+    font-family: 'Parisienne', cursive;
+}
+
+header #logo h1 img{
+    width: 50px;
+    height: 50px;
+}
+
+/*Search Bar*/
+header #search_bar{
+    text-align: center;
+
+    margin-top: -3%;
+    margin-bottom: 1%;
+}
+
+header #search_bar input[type=text]{
+    padding: 8px 15px;
+    width: 400px;
+
+    font-size: 14px;
+    line-height: 18px; 
+    color: #57218F; /* color of the inputed text*/
+
+    background-color: transparent;
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24'%3E%3Cpath d='M15.5 14h-.79l-.28-.27C15.41 12.59 16 11.11 16 9.5 16 5.91 13.09 3 9.5 3S3 5.91 3 9.5 5.91 16 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z'/%3E%3Cpath d='M0 0h24v24H0z' fill='none'/%3E%3C/svg%3E");
+    background-repeat: no-repeat;
+    background-size: 20px 20px; /*size of the searh icon*/
+    background-position: 95% center; /*location of the search icon*/
+
+    border-radius: 50px;
+    border: 1.5px solid #57218F;
+
+    transition: all 200ms ease-in-out;
+    /*backface-visibility: hidden;
+    transform-style: preserve-3d;*/
+}
+
+header #search_bar input:hover{
+    padding: 8px 0px;
+    outline: 0;
+    border: 1.5px solid transparent;
+    border-bottom: 1.5px solid #57218F;
+    border-radius: 0;
+    /*background-position: 100% center;*/
+}
+
+header #search_bar input:focus{
+    padding: 8px 0px;
+    outline: 0;
+    border: 1.5px solid transparent;
+    border-bottom: 1.5px solid #57218F;
+    border-radius: 0;
+    /*background-position: 100% center;*/
+}
+
+/*Nav*/
+header #nav{
+    width: 100%;
+    background-color: #EEEEFF;
+
+    margin-bottom: 3%;
+}
+
+header #nav ul{
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+header #nav ul li{
+    display: inline-block;
+    width: 19%;
+
+    text-align: center;
+}
+
+/*
+header #nav ul li:first-child{
+    text-align: left;
+}
+
+header #nav ul li:last-child{
+    text-align: right;
+}
+*/
+
+header #nav ul li a{
+    color: #57218F;
+    display: block;
+    padding: 15px 0; /*vertical horizontal*/
+}
+
+header #nav ul li a:hover{
+    font-weight: bold;
+    background-color: #57218F;
+    color: #EEEEFF;
+    transition: .5s;
+}
+
+
+#account {
+    margin-left: 15%;
+    width: 200px;
+    float: left;
+}
+#account h2{
+    color: #57218F;
+}
+#account img{
+    width: 200px;
+}
+#account a{
+    display: block;
+
+    margin-top: 1%;
+    padding: 5% 10%;
+
+    background-color: #EEEEFF;
+    color: #57218F;
+
+    text-align: center;
+}
+
+#account a:hover{
+    background-color: #57218F;
+    color: #EEEEFF;
+    transition: 1s;
+}
+
+#setting{
+    float: right;
+    margin-right: 15%;
+    width: 50%;
+}

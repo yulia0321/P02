@@ -1,140 +1,148 @@
 @import url('https://fonts.googleapis.com/css2?family=Parisienne&family=Roboto:wght@300;400;700&display=swap');
-
-/*Reset*/
-*{
-    margin: 0;
-    padding: 0;
-}
-li{
-    list-style: none;
-}
-a{
-    text-decoration: none;
-}
-.clearfix::after{
-    content: "";
-    display: block;
-    clear: both;
-}
-h1,h2,h3{
-    margin-bottom: 1.5%;
-}
-hr{
-    color: #57218F;
-    margin: 3% 0;
-}
-
-/*Logo*/
-header #logo{
-    margin-left: 10%;
-    margin-top: 3%;
-}
-
-header #logo h1 a{
-    color: #57218F;
-    font-family: 'Parisienne', cursive;
-}
-
-header #logo h1 img{
-    width: 50px;
-    height: 50px;
-}
-
-/*Search Bar*/
-header #search_bar{
-    text-align: center;
-
-    margin-top: -3%;
-    margin-bottom: 1%;
-}
-
-header #search_bar input[type=text]{
-    padding: 8px 15px;
-    width: 400px;
-
-    font-size: 14px;
-    line-height: 18px;
-    color: #57218F; /* color of the inputed text*/
-
-    background-color: transparent;
-    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24'%3E%3Cpath d='M15.5 14h-.79l-.28-.27C15.41 12.59 16 11.11 16 9.5 16 5.91 13.09 3 9.5 3S3 5.91 3 9.5 5.91 16 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z'/%3E%3Cpath d='M0 0h24v24H0z' fill='none'/%3E%3C/svg%3E");
-    background-repeat: no-repeat;
-    background-size: 20px 20px; /*size of the searh icon*/
-    background-position: 95% center; /*location of the search icon*/
-
-    border-radius: 50px;
-    border: 1.5px solid #57218F;
-
-    transition: all 200ms ease-in-out;
-    /*backface-visibility: hidden;
-    transform-style: preserve-3d;*/
-}
-
-header #search_bar input:hover{
-    padding: 8px 0px;
-    outline: 0;
-    border: 1.5px solid transparent;
-    border-bottom: 1.5px solid #57218F;
-    border-radius: 0;
-    /*background-position: 100% center;*/
-}
-
-header #search_bar input:focus{
-    padding: 8px 0px;
-    outline: 0;
-    border: 1.5px solid transparent;
-    border-bottom: 1.5px solid #57218F;
-    border-radius: 0;
-    /*background-position: 100% center;*/
-}
-
-/*Nav*/
-header #nav{
-    width: 100%;
-    background-color: #EEEEFF;
-
-    margin-bottom: 3%;
-}
-
-header #nav ul{
-    margin-left: 10%;
+/*Mobile Screen*/
+@media(max-width: 600px){
+/*SECTION*/
+/*BOOK COVER*/
+#book{
+    margin-top: 33%;
+    margin-left: 20%;
     margin-right: 10%;
+    margin-bottom: 8%;
+    width: 50%;
+    /* background-color: aqua; */
 }
 
-header #nav ul li{
-    display: inline-block;
-    width: 19%;
-
-    text-align: center;
+section #book img{
+    width: 100%;
 }
 
-/*
-header #nav ul li:first-child{
-    text-align: left;
-}
-
-header #nav ul li:last-child{
-    text-align: right;
-}
-*/
-
-header #nav ul li a{
-    color: #57218F;
+section #book a{
     display: block;
-    padding: 15px 0; /*vertical horizontal*/
+
+    margin-top: 5%;
+    padding: 5% 20%;
+
+    background-color: #EEEEFF;
+    color: #57218F;
 }
 
-header #nav ul li a:hover{
-    font-weight: bold;
+section div{
+    float: left;
+}
+
+section #book a:hover{
     background-color: #57218F;
     color: #EEEEFF;
-    transition: .5s;
+    transition: 0.5s;
 }
 
+section #bookInfo{
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 10%;
+}
+
+section #bookInfo ul li{
+    float: left;
+}
+
+section #bookInfo ul li{
+    float: left;
+}
+
+section #related{
+    margin: 2% 6%;
+    margin-bottom: 10%;
+    float: left;
+    /* background-color: antiquewhite; */
+}
+
+section #related h3 a {
+    color: #57218F;
+}
+
+section #related h3 a:hover{
+    opacity: 0.5;
+    transition: 0.5s;
+}
+
+section #related ul li{
+    float: left;
+    margin-right: 0;
+}
+
+section #related li:hover img{
+    opacity: 0.7;
+}
+
+section #related li img{
+    margin-top: 5%;
+    width: 85%;
+    max-width: 180px;
+    height: auto; 
+    max-height: 230px;
+    float: left;
+}
+
+section #related li a{
+    color: #141414;
+}
+
+section #related li h5{
+    text-align: center;
+ }
+
+section #related li p {
+    text-align: left;
+    line-height: 150%;
+}
+
+
+section #related .table1{
+    width: 120%;
+    height: auto;
+    margin-right: 0%;
+}
+
+
+section #reviews{
+    margin-left: 10%;
+    margin-right: 10%;
+    /* background-color: antiquewhite; */
+}
+
+section #reviews h3 a{
+    color: #57218F;
+}
+
+section #reviews h3 a:hover{
+    opacity: 0.5;
+    transition: 0.5s;
+}
+
+section #reviews ul li{
+    float: left;
+}
+
+section #reviews ul li p{
+    line-height: 1.5em;
+}
+}
+
+
+
+
+
+
+
+
+/*Desktop Screen*/
+@media(min-width: 600px){
 /*SECTION*/
 /*BOOK COVER*/
 section #book{
-    margin-left: 15%;
+    margin-top: 16%;
+    margin-left: 10%;
     width: 230px;
     /* background-color: aqua; */
 }
@@ -164,11 +172,30 @@ section #book a:hover{
     transition: 0.5s;
 }
 
-/*Table Design*/
+section #bookInfo{
+    margin-top: 16%;
+    margin-right: 15%;
+    float: right;
+    /* background-color: antiquewhite; */
 
-div {
-    float:left;
-    margin-right: 1rem;
+    align-content: center;
+    width: 50%;
+}
+
+section #bookInfo ul li{
+    float: left;
+}
+
+
+
+
+section #related{
+    margin: 2% 10%;
+    /* background-color: antiquewhite; */
+}
+
+section #related h3 a {
+    color: #57218F;
 }
 
 section #related h3 a:hover{
@@ -178,7 +205,7 @@ section #related h3 a:hover{
 
 section #related ul li{
     float: left;
-    margin-right: 20px;
+    margin-right: 0;
 }
 
 section #related li:hover img{
@@ -186,8 +213,10 @@ section #related li:hover img{
 }
 
 section #related li img{
-    width: 180px;
-    height: 245px;
+    width: 85%;
+    max-width: 200px;
+    height: auto; 
+    max-height: 240px;
 }
 
 section #related li a{
@@ -204,12 +233,17 @@ section #related li p {
 }
 
 
-
+section #related .table1{
+    width: 120%;
+    height: auto;
+    margin-right: 10%;
+}
 
 
 section #reviews{
-    margin-left: 15%;
-    margin-right: 15%;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 10%;
     /* background-color: antiquewhite; */
 }
 
@@ -229,110 +263,5 @@ section #reviews ul li{
 section #reviews ul li p{
     line-height: 1.5em;
 }
-
-
- /*Banner*/
-.responsiveImg{
-    width: 100%;
-    height: auto;
 }
 
- ul,li {
-     list-style:none;
-}
-
-  #slide{
-      height:350px;
-      position:relative;
-      overflow:hidden;
-}
-
-  #slide ul{
-      width:400%;
-      height:100%;
-      transition:1s;
-}
-
-  #slide ul:after{
-      content:"";
-      display:block;
-      clear:both;
-}
-
-  #slide li{
-      float:left;
-      width:25%;
-      height:100%;
-}
-
-  #slide li:nth-child(1){
-      background:#faa;
-}
-
-  #slide li:nth-child(2){
-      background:#ffa;
-}
-
-  #slide li:nth-child(3){
-      background:#faF;
-}
-
-  #slide li:nth-child(4){
-      background:#aaf;
-}
-
-  #slide input{
-      display:none;
-}
-
-  #slide label{
-      display:inline-block;
-      vertical-align:middle;
-      width:10px;height:10px;
-      border:2px solid #57218F;
-      background:#fff;
-      transition:0.3s;
-      border-radius:50%;
-      cursor:pointer;
-}
-
-  #slide .pos{
-      text-align:center;
-      position:absolute;
-      bottom: 10px;
-      left:0;
-      width:100%;
-      text-align:center;
-}
-
-  #pos1:checked~ul{
-      margin-left:0%;
-}
-
-  #pos2:checked~ul{
-      margin-left:-100%;
-}
-
-  #pos3:checked~ul{
-      margin-left:-200%;
-}
-
-  #pos4:checked~ul{
-      margin-left:-300%;
-}
-
-  #pos1:checked~.pos>label:nth-child(1){
-      background:#57218F;
-}
-
-  #pos2:checked~.pos>label:nth-child(2){
-      background:#57218F;
-}
-
-  #pos3:checked~.pos>label:nth-child(3){
-      background:#57218F;
-}
-
-  #pos4:checked~.pos>label:nth-child(4){
-      background:#57218F;
-}
