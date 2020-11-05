@@ -1,124 +1,14 @@
 
 h1,h2,h3{
+    margin-top: 1.5%;
     margin-bottom: 1.5%;
 }
 hr{
-    color: #57218F;
     margin: 3% 0;
+    border: #57218F 1px solid;
 }
-
-/*Logo*/
-header #logo{
-    margin-left: 10%;
-    margin-top: 3%;
-}
-
-header #logo h1 a{
-    color: #57218F;
-    font-family: 'Parisienne', cursive;
-}
-
-header #logo h1 img{
-    width: 50px;
-    height: 50px;
-}
-
-/*Search Bar*/
-header #search_bar{
-    text-align: center;
-
-    margin-top: -3%;
-    margin-bottom: 1%;
-}
-
-header #search_bar input[type=text]{
-    padding: 8px 15px;
-    width: 400px;
-
-    font-size: 14px;
-    line-height: 18px; 
-    color: #57218F; /* color of the inputed text*/
-
-    background-color: transparent;
-    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24'%3E%3Cpath d='M15.5 14h-.79l-.28-.27C15.41 12.59 16 11.11 16 9.5 16 5.91 13.09 3 9.5 3S3 5.91 3 9.5 5.91 16 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z'/%3E%3Cpath d='M0 0h24v24H0z' fill='none'/%3E%3C/svg%3E");
-    background-repeat: no-repeat;
-    background-size: 20px 20px; /*size of the searh icon*/
-    background-position: 95% center; /*location of the search icon*/
-
-    border-radius: 50px;
-    border: 1.5px solid #57218F;
-
-    transition: all 200ms ease-in-out;
-    /*backface-visibility: hidden;
-    transform-style: preserve-3d;*/
-}
-
-header #search_bar input:hover{
-    padding: 8px 0px;
-    outline: 0;
-    border: 1.5px solid transparent;
-    border-bottom: 1.5px solid #57218F;
-    border-radius: 0;
-    /*background-position: 100% center;*/
-}
-
-header #search_bar input:focus{
-    padding: 8px 0px;
-    outline: 0;
-    border: 1.5px solid transparent;
-    border-bottom: 1.5px solid #57218F;
-    border-radius: 0;
-    /*background-position: 100% center;*/
-}
-
-/*Nav*/
-header #nav{
-    width: 100%;
-    background-color: #EEEEFF;
-
-    margin-bottom: 3%;
-}
-
-header #nav ul{
-    margin-left: 10%;
-    margin-right: 10%;
-}
-
-header #nav ul li{
-    display: inline-block;
-    width: 19%;
-
-    text-align: center;
-}
-
-/*
-header #nav ul li:first-child{
-    text-align: left;
-}
-
-header #nav ul li:last-child{
-    text-align: right;
-}
-*/
-
-header #nav ul li a{
-    color: #57218F;
-    display: block;
-    padding: 15px 0; /*vertical horizontal*/
-}
-
-header #nav ul li a:hover{
-    font-weight: bold;
-    background-color: #57218F;
-    color: #EEEEFF;
-    transition: .5s;
-}
-
-
-#account {
-    margin-left: 15%;
-    width: 200px;
-    float: left;
+section{
+    font-family: 'Roboto', sans-serif;
 }
 #account h2{
     color: #57218F;
@@ -137,15 +27,244 @@ header #nav ul li a:hover{
 
     text-align: center;
 }
-
 #account a:hover{
     background-color: #57218F;
     color: #EEEEFF;
     transition: 1s;
 }
 
-#setting{
-    float: right;
-    margin-right: 15%;
-    width: 50%;
+#plan h2{
+    color: #57218F;
+    padding-bottom: 20px;
+}
+#plan h3{
+    padding-bottom: 10px;
+}
+
+#plan a{
+    color: #57218F;
+}
+@media (max-width: 768px){
+    #account {
+        margin-left: 15%;
+        width: 200px;
+        float: left;
+        position: relative;
+        top: 220px;
+    }
+    #setting{
+        float: right;
+        width: 65%;
+        position: relative;
+        top: 250px;
+        margin-right: -20%;
+    }
+    #setting hr{
+        width: 80%;
+    }
+    #plan{
+        position: relative;
+        top: 270px;
+        float: left;
+        margin: 0 15%;
+        width: 100%;
+        margin-bottom: 2%;
+    }
+    #billing_history{
+        margin-top: 2%;
+        position: relative;
+        top: 250px;
+        float: left;
+        margin: 0 15%;
+        width: 100%;
+    }
+    #billing_info{
+        position: relative;
+        top: 250px;
+        float: left;
+        margin: 0 15%;
+        width: 100%;
+    }
+    #plan hr, #billing_history hr, #billing_info hr{
+        margin-right: 30%;
+        width: 90%;
+    }
+    #plan li:nth-child(2){
+        float: right;
+        margin-right: 10%;
+        position: relative;
+        top: -45px;
+    }
+    #plan li:nth-child(4){
+        float: right;
+        margin-right: 10%;
+        position: relative;
+        top: -20px;
+    }
+    #billing_history li:nth-child(2){
+        float: right;
+        margin-right: 10%;
+        position: relative;
+        top: -33px;
+    }
+    #billing_history li:nth-child(5){
+        float: right;
+        margin-right: 10%;
+        position: relative;
+        top: -20px;
+    }
+    #billing_info>ul>li:nth-child(1){
+        float: right;
+        margin-right: 10%;
+        position: relative;
+        top: -45px;
+    }
+}
+@media (max-width: 376px){
+    #account {
+        margin-left: 15%;
+        width: 200px;
+        float: left;
+        position: relative;
+        top: 220px;
+        margin: 0 30%;
+    }
+    #setting{
+        float: left;
+        width: 90%;
+        position: relative;
+        top: 250px;
+        margin: 0 20%;
+    }
+    #plan{
+        position: relative;
+        top: 270px;
+        float: left;
+        margin: 0 20%;
+        width: 80%;
+    }
+    #billing_history{
+        margin-top: 2%;
+        position: relative;
+        top: 280px;
+        float: left;
+        margin: 0 20%;
+        width: 80%;
+    }
+    #billing_info{
+        position: relative;
+        top: 280px;
+        float: left;
+        margin: 0 20%;
+        width: 80%;
+    }
+    #billing_info>ul>li:nth-child(1){
+        top: -30px;
+    }
+}
+
+@media (min-width: 769px){
+    #setting{
+        float: right;
+        margin-right: 15%;
+        width: 50%;
+        position: relative;
+        top: 250px;
+    }
+    #account {
+        margin-left: 15%;
+        width: 200px;
+        float: left;
+        position: relative;
+        top: 200px;
+    }
+    #plan{
+        position: relative;
+        top: 270px;
+        float: left;
+        margin: 0 15%;
+        width: 100%;
+        margin-bottom: 2%;
+    }
+    #billing_history{
+        margin-top: 2%;
+        position: relative;
+        top: 250px;
+        float: left;
+        margin: 0 15%;
+        width: 100%;
+    }
+    #billing_info{
+        position: relative;
+        top: 250px;
+        float: left;
+        margin: 0 15%;
+        width: 100%;
+    }
+
+    #plan hr, #billing_history hr, #billing_info hr{
+        margin-right: 30%;
+    }
+    #plan li:nth-child(2){
+        float: right;
+        margin-right: 30%;
+        position: relative;
+        top: -45px;
+    }
+    #plan li:nth-child(4){
+        float: right;
+        margin-right: 30%;
+        position: relative;
+        top: -20px;
+    }
+    #billing_history li:nth-child(2){
+        float: right;
+        margin-right: 30%;
+        position: relative;
+        top: -45px;
+    }
+    #billing_history li:nth-child(5){
+        float: right;
+        margin-right: 30%;
+        position: relative;
+        top: -20px;
+    }
+    #billing_info>ul>li:nth-child(1){
+        float: right;
+        margin-right: 30%;
+        position: relative;
+        top: -45px;
+    }
+}
+
+
+
+#billing_history a{
+    color: #57218F;
+}
+
+
+#billing_info h2{
+    color: #57218F;
+}
+#billing_info a{
+    color: #57218F;
+}
+#billing_info a:hover{
+    border: #57218F 1px solid;
+}
+
+#bill_address{
+    padding-bottom: 10%;
+}
+
+@media (max-width: 768px){
+
+}
+@media (max-width: 376px){
+
+}
+
+@media (min-width: 769px){
+
 }
