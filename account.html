@@ -6,37 +6,106 @@
     <title>Account Page</title>
 
     <link href="css/main.css" rel="stylesheet">
+    <link href="css/header_nav.css" rel="stylesheet">
+    <link href="css/footer.css" rel="stylesheet">
     <link href="css/account.css" rel="stylesheet">
 
 </head>
 
 
 <body>
+
     <header>
-        <div id="logo">
-            <ul>
-                <li>
-                    <h1>
-                        <a href="home.html">Aurora<img src="img/logo/logo.png" alt="logo"></a>
-                    </h1>
-                </li>
-            </ul>
+        <a href="mobile_nav.html"> 
+            <div id="mobile_nav"> </div> 
+        </a>
+
+        <div id="logo" class="clearfix">
+            <h1>
+                <a href="home.html">Aurora<img src="img/logo/logo.png" alt="logo"></a>
+            </h1>
         </div>
 
-        <div id="search_bar">
-            <input type="text" placeholder="Any book in mind?">
+        <div id="search_bar" class="clearfix">
+            <form>
+                <input type="text" placeholder="Any book in mind?">			</form>
         </div>
 
-        <div id="nav">
-            <ul>
-                <li><a href="#">Book</a></li>
-                <li><a href="#">Magazine</a></li>
-                <li><a href="#">Newspaper</a></li>
-                <li><a href="#">Audio-Book</a></li>
-                <li><a href="#">Comic</a></li>
+        <div id="login" class="clearfix">
+            <ul class="clearfix">
+                <li><a href="join_us.html">Join Us</a></li>
+                <li><a href="sign_in.html">Sign In</a></li>
             </ul>
         </div>
     </header>
+
+
+    <nav id="nav" >
+
+        <!-- <input type="checkbox" id="show-menu"> -->
+        <ul class="clearfix">
+            <li>
+                <a href="general.html"><span>Book</span></a>
+                <ul class="clearfix">
+                    <li><a href="general.html">Bestseller</a></li>
+                    <li><a href="general.html">Fiction</a></li>
+                    <li><a href="general.html">Non-Fiction</a></li>
+                    <li><a href="general.html">Mystery & Thriller</a></li>
+                    <li><a href="general.html">Romance</a></li>
+                    <li><a href="general.html">Wellness</a></li>
+                    <li><a href="general.html">Business & Finance</a></li>
+                    <li><a href="general.html">Cookbook</a></li>
+                    <li><a href="general.html">Kids</a></li>
+                </ul>
+            </li>
+
+            <li>
+              <a href="general.html"><span>Newspaper</span></a>
+                <ul class="clearfix">
+                    <li><a href="general.html">The Globe and Mail</a></li>
+                    <li><a href="general.html">National Post</a></li>
+                    <li><a href="general.html">Times</a></li>
+                    <li><a href="general.html">USA Today</a></li>
+                </ul>
+            </li>
+
+            <li>
+              <a href="general.html" ><span>Audio-Book</span></a>
+                    <ul class="clearfix">
+                        <li><a href="general.html">Bestseller</a></li>
+                        <li><a href="general.html">Fiction</a></li>
+                        <li><a href="general.html">Non-Fiction</a></li>
+                        <li><a href="general.html">Mystery & Thriller</a></li>
+                        <li><a href="general.html">Romance</a></li>
+                        <li><a href="general.html">Wellness</a></li>
+                        <li><a href="general.html">Business & Finance</a></li>
+                        <li><a href="general.html">Cookbook</a></li>
+                        <li><a href="general.html">Kids</a></li>
+                    </ul>
+            </li>
+
+
+            <li>
+                <a href="general.html"><span>Comics</span></a>
+                    <ul class="clearfix">
+                        <li><a href="general.html">Bestseller</a></li>
+                        <li><a href="general.html">Crime & Mysteryion</a></li>
+                        <li><a href="general.html">Romance</a></li>
+                        <li><a href="general.html">Fantasy</a></li>
+                        <li><a href="general.html">Manga</a></li>
+                  </ul>
+              </li>
+
+
+              <li>
+                <a href="about_us.html"><span>About</span></a>
+                    <ul class="clearfix">
+                        <li><a href="about_us.html">About Us</a></li>
+                        <li><a href="contact.html">Contact Us</a></li>
+                    </ul>
+              </li>
+        </ul>
+    </nav>
 
     <section>
         <div id="account">
@@ -54,7 +123,6 @@
             <h3>Email</h3>
             michgr@gmail.com
 
-
             <hr>
 
             <h3>Password</h3>
@@ -62,8 +130,59 @@
         </div>
 
         <div id="plan">
-            <h2></h2>
+            <h2>Plan</h2>
+            <!-- <h3>My Plans</h3> -->
+            <ul>
+                <li><h3>My Plan</h3></li>
+                <li><a href="#">Edit</a></li>
+                <li>New Year Promotion</li>
+                <li>$22. 95 / month</li>
+                <hr>
+            </ul>
+        </div>
+
+        <div id="billing_history">
+            <ul>
+                <li><h3>Billing History</h3></li>
+                <li><a href="#">View More</a></li>
+                <li><h4>02 / October / 2020</h4></li>
+                <li>New Year Promotion</li>
+                <li>$22. 95 / month</li>
+                <hr>
+            </ul>
+        </div>
+
+        <div id="billing_info">
+            <h2>Billing Information</h2>
+            <ul>
+                <li><a href="#">Edit</a></li>
+                <li><h3>Name on Card</h3></li>
+                <li>Michelle Green</li>
+                <hr>
+            </ul>
+
+            <div id="card_number">
+                <ul>
+                    <li><h3>Card Number</h3></li>
+                    <li>**** **** **** 2950 / VISA</li>
+                    <hr>
+                </ul>
+            </div>
+
+            <div id="bill_address">
+                <ul>
+                    <li><h3>Billing Address</h3></li>
+                    <li>
+                        801 - 9323 University Drive <br>
+                        Burnaby, BC, Canada <br>
+                        V3B 0K9
+                    </li>
+                </ul>
+            </div>
         </div>
     </section>
+
+
+
 </body>
 </html>
