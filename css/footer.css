@@ -2,10 +2,13 @@
 footer a{
     color: #57218F;
 }
-footer #site_map {
-    margin-left: 10%;
-    margin-right: 10%;
+#site_map {
+    margin: 0 10%;
     padding-top: 2.5%;
+}
+#site_map>ul>li{
+    width: 20%;
+    float: left;
 }
 
 footer #divider{
