@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link href="css/main.css" rel="stylesheet">
+
+    <style>
+    #mobile_nav{
+        margin-top: 2%;
+        margin-left: 2%;
+        width: 30px;
+        height: 5px;
+        border-top: 12px double #57218F;
+        border-bottom: 4px solid #57218F; 
+    }
+    #nav{
+        width: 100%;
+        position: fixed;
+        z-index: 1000;
+        top: 19%;
+    }
+    #nav>ul>li{
+        width: 100%;
+        height: 20%;
+        background-color: #57218F;
+        float: left;
+        padding: 1.1% 0;
+        text-align: center;
+    }
+    #nav>ul>li:hover{
+        background-color: #EEEEFF;
+        transition: 0.8s;
+    }
+    #nav>ul>li:hover>a{
+        color: #57218F;
+        transition: 0.8s;
+    }
+    #nav > ul > li > a { 
+        color: #EEEEFF;
+        font-size: 120%;
+        font-family: 'Roboto', sans-serif;
+    }
+
+    /*second level*/
+    #nav li ul{ 
+        background-color: #EEEEFF; /*second level background*/
+        position: absolute;
+        display: none; /*안보이게하기*/
+        width: 100%;
+        top: 100%;
+    }
+    #nav li:hover ul{
+        display: block; /*호버하면 보이게 하기*/
+    }
+
+    #nav li ul li {
+        padding: 3% 0;
+        border-top: 1px solid #57218F ;
+    }       
+    #nav li ul li:nth-child(1) {
+        border-top: 1px solid #57218F ;
+    }
+    #nav li ul li:hover{
+        background-color: #57218F;
+        transition: 0.8s;
+    }
+    #nav li ul li:hover a{
+        color: #EEEEFF;     
+        transition: 0.8s;   
+    }
+
+    #nav li ul li a{
+        color: #57218F;
+    }  
+    </style>
+
+</head>
+<body>
+    <header>
+        <a href="home.html"> 
+            <div id="mobile_nav"> </div> 
+        </a>
+    </header>
+
+    <nav id="nav" >
+
+        <!-- <input type="checkbox" id="show-menu"> -->
+        <ul class="clearfix">
+            <li>
+                <a href="general.html"><span>Book</span></a>
+                <ul class="clearfix">
+                    <li><a href="general.html">Bestseller</a></li>
+                    <li><a href="general.html">Fiction</a></li>
+                    <li><a href="general.html">Non-Fiction</a></li>
+                    <li><a href="general.html">Mystery & Thriller</a></li>
+                    <li><a href="general.html">Romance</a></li>
+                    <li><a href="general.html">Wellness</a></li>
+                    <li><a href="general.html">Business & Finance</a></li>
+                    <li><a href="general.html">Cookbook</a></li>
+                    <li><a href="general.html">Kids</a></li>
+                </ul>
+            </li>
+
+            <li>
+              <a href="general.html"><span>Newspaper</span></a>
+                <ul class="clearfix">
+                    <li><a href="general.html">The Globe and Mail</a></li>
+                    <li><a href="general.html">National Post</a></li>
+                    <li><a href="general.html">Times</a></li>
+                    <li><a href="general.html">USA Today</a></li>
+                </ul>
+            </li>
+
+            <li>
+              <a href="general.html" ><span>Audio-Book</span></a>
+                    <ul class="clearfix">
+                        <li><a href="general.html">Bestseller</a></li>
+                        <li><a href="general.html">Fiction</a></li>
+                        <li><a href="general.html">Non-Fiction</a></li>
+                        <li><a href="general.html">Mystery & Thriller</a></li>
+                        <li><a href="general.html">Romance</a></li>
+                        <li><a href="general.html">Wellness</a></li>
+                        <li><a href="general.html">Business & Finance</a></li>
+                        <li><a href="general.html">Cookbook</a></li>
+                        <li><a href="general.html">Kids</a></li>
+                    </ul>
+            </li>
+
+
+            <li>
+                <a href="general.html"><span>Comics</span></a>
+                    <ul class="clearfix">
+                        <li><a href="general.html">Bestseller</a></li>
+                        <li><a href="general.html">Crime & Mysteryion</a></li>
+                        <li><a href="general.html">Romance</a></li>
+                        <li><a href="general.html">Fantasy</a></li>
+                        <li><a href="general.html">Manga</a></li>
+                  </ul>
+              </li>
+
+
+              <li>
+                <a href="about_us.html"><span>About</span></a>
+                    <ul class="clearfix">
+                        <li><a href="about_us.html">About Us</a></li>
+                        <li><a href="contact.html">Contact Us</a></li>
+                    </ul>
+              </li>
+        </ul>
+    </nav>
+</body>
+</html>
