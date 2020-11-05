@@ -1,132 +1,125 @@
-@import url('https://fonts.googleapis.com/css2?family=Parisienne&family=Roboto:wght@300;400;700&display=swap');
 /*Mobile Screen*/
+body{
+    font-family: 'Roboto', sans-serif;
+}
 @media(max-width: 600px){
-/*SECTION*/
-/*BOOK COVER*/
-#book{
-    margin-top: 33%;
-    margin-left: 20%;
-    margin-right: 10%;
-    margin-bottom: 8%;
-    width: 50%;
-    /* background-color: aqua; */
-}
+    /*SECTION*/
+    /*BOOK COVER*/
+    #book{
+        margin: 50% 20%;
+        margin-bottom: 10%;
+        text-align: center;
+        width: 72%;
+    }
 
-section #book img{
-    width: 100%;
-}
+    section #book img{
+        width: 100%;
+    }
 
-section #book a{
-    display: block;
+    section #book a{
+        display: block;
 
-    margin-top: 5%;
-    padding: 5% 20%;
+        margin-top: 5%;
+        padding: 5% 20%;
 
-    background-color: #EEEEFF;
-    color: #57218F;
-}
+        background-color: #EEEEFF;
+        color: #57218F;
+    }
 
-section div{
-    float: left;
-}
+    section div{
+        float: left;
+    }
 
-section #book a:hover{
-    background-color: #57218F;
-    color: #EEEEFF;
-    transition: 0.5s;
-}
+    section #book a:hover{
+        background-color: #57218F;
+        color: #EEEEFF;
+        transition: 0.5s;
+    }
 
-section #bookInfo{
-    margin-left: 10%;
-    margin-right: 10%;
-    margin-bottom: 10%;
-}
+    section #bookInfo{
+        margin-left: 10%;
+        margin-right: 10%;
+        margin-bottom: 10%;
+    }
 
-section #bookInfo ul li{
-    float: left;
-}
+    section #bookInfo ul li{
+        float: left;
+    }
 
-section #bookInfo ul li{
-    float: left;
-}
+    section #bookInfo ul li{
+        float: left;
+    }
 
-section #related{
-    margin: 2% 6%;
-    margin-bottom: 10%;
-    float: left;
-    /* background-color: antiquewhite; */
-}
+    section #related{
+        margin: 0 auto;
+        width: 90%;
+        position: relative;
+        left: 30%;
+    }
 
-section #related h3 a {
-    color: #57218F;
-}
+    section #related h3 a {
+        color: #57218F;
+    }
 
-section #related h3 a:hover{
-    opacity: 0.5;
-    transition: 0.5s;
-}
+    section #related h3 a:hover{
+        opacity: 0.5;
+        transition: 0.5s;
+    }
 
-section #related ul li{
-    float: left;
-    margin-right: 0;
-}
+    section #related ul li{
+        float: left;
+        margin-right: 0;
+    }
 
-section #related li:hover img{
-    opacity: 0.7;
-}
+    section #related li:hover img{
+        opacity: 0.7;
+    }
 
-section #related li img{
-    margin-top: 5%;
-    width: 85%;
-    max-width: 180px;
-    height: auto; 
-    max-height: 230px;
-    float: left;
-}
+    section #related li img{
+        margin-top: 5%;
+        width: 85%;
+        max-width: 180px;
+        height: auto; 
+        max-height: 230px;
+        float: left;
+    }
 
-section #related li a{
-    color: #141414;
-}
+    section #related li a{
+        color: #141414;
+    }
 
-section #related li h5{
-    text-align: center;
- }
+    section #related li h5{
+        text-align: center;
+    }
 
-section #related li p {
-    text-align: left;
-    line-height: 150%;
-}
+    section #related li p {
+        text-align: left;
+        line-height: 150%;
+    }
 
 
-section #related .table1{
-    width: 120%;
-    height: auto;
-    margin-right: 0%;
-}
+    section #reviews{
+        margin-left: 10%;
+        margin-right: 10%;
+        /* background-color: antiquewhite; */
+    }
 
+    section #reviews h3 a{
+        color: #57218F;
+    }
 
-section #reviews{
-    margin-left: 10%;
-    margin-right: 10%;
-    /* background-color: antiquewhite; */
-}
+    section #reviews h3 a:hover{
+        opacity: 0.5;
+        transition: 0.5s;
+    }
 
-section #reviews h3 a{
-    color: #57218F;
-}
+    section #reviews ul li{
+        float: left;
+    }
 
-section #reviews h3 a:hover{
-    opacity: 0.5;
-    transition: 0.5s;
-}
-
-section #reviews ul li{
-    float: left;
-}
-
-section #reviews ul li p{
-    line-height: 1.5em;
-}
+    section #reviews ul li p{
+        line-height: 1.5em;
+    }
 }
 
 
@@ -138,130 +131,128 @@ section #reviews ul li p{
 
 /*Desktop Screen*/
 @media(min-width: 600px){
-/*SECTION*/
-/*BOOK COVER*/
-section #book{
-    margin-top: 16%;
-    margin-left: 10%;
-    width: 230px;
-    /* background-color: aqua; */
-}
+    /*SECTION*/
+    /*BOOK COVER*/
+    section #book{
+        margin-top: 16%;
+        margin-left: 10%;
+        width: 230px;
+        /* background-color: aqua; */
+    }
 
-section #book img{
-    width: 230px;
-}
+    section #book img{
+        width: 230px;
+    }
 
-section #book a{
-    display: block;
+    section #book a{
+        display: block;
 
-    margin-top: 5%;
-    padding: 5% 20%;
+        margin-top: 5%;
+        padding: 5% 20%;
 
-    background-color: #EEEEFF;
-    color: #57218F;
-}
+        background-color: #EEEEFF;
+        color: #57218F;
+    }
 
-section div{
-    float: left;
-}
+    section div{
+        float: left;
+    }
 
-section #book a:hover{
-    background-color: #57218F;
-    color: #EEEEFF;
+    section #book a:hover{
+        background-color: #57218F;
+        color: #EEEEFF;
+        transition: 0.5s;
+    }
 
-    transition: 0.5s;
-}
+    section #bookInfo{
+        margin-top: 16%;
+        margin-right: 15%;
+        float: right;
+        /* background-color: antiquewhite; */
 
-section #bookInfo{
-    margin-top: 16%;
-    margin-right: 15%;
-    float: right;
-    /* background-color: antiquewhite; */
+        align-content: center;
+        width: 50%;
+    }
 
-    align-content: center;
-    width: 50%;
-}
+    section #bookInfo ul li{
+        float: left;
+    }
 
-section #bookInfo ul li{
-    float: left;
-}
+    section #related{
+        margin: 2% 10%;
+        /* background-color: antiquewhite; */
+    }
 
+    section #related h3 a {
+        color: #57218F;
+    }
 
+    section #related h3 a:hover{
+        opacity: 0.5;
+        transition: 0.5s;
+    }
 
+    section #related ul li{
+        float: left;
+        margin-right: 0;
+    }
 
-section #related{
-    margin: 2% 10%;
-    /* background-color: antiquewhite; */
-}
+    section #related li:hover img{
+        opacity: 0.7;
+    }
 
-section #related h3 a {
-    color: #57218F;
-}
+    section #related li img{
+        width: 85%;
+        max-width: 200px;
+        height: auto; 
+        max-height: 240px;
+    }
 
-section #related h3 a:hover{
-    opacity: 0.5;
-    transition: 0.5s;
-}
+    section #related li a{
+        color: #141414;
+    }
 
-section #related ul li{
-    float: left;
-    margin-right: 0;
-}
+    section #related li h5{
+        text-align: center;
+    }
 
-section #related li:hover img{
-    opacity: 0.7;
-}
+    section #related li p {
+        text-align: left;
+        line-height: 150%;
+    }
 
-section #related li img{
-    width: 85%;
-    max-width: 200px;
-    height: auto; 
-    max-height: 240px;
-}
+    section #related .table1{
+        width: 120%;
+        height: auto;
+        margin-right: 10%;
+    }
 
-section #related li a{
-    color: #141414;
-}
+    section #reviews{
+        margin-left: 10%;
+        margin-right: 10%;
+        margin-bottom: 10%;
+        /* background-color: antiquewhite; */
+    }
 
-section #related li h5{
-    text-align: center;
- }
+    section #reviews h3 a{
+        color: #57218F;
+    }
 
-section #related li p {
-    text-align: left;
-    line-height: 150%;
-}
+    section #reviews h3 a:hover{
+        opacity: 0.5;
+        transition: 0.5s;
+    }
 
+    #reviews>ul{
+        margin-bottom: 3%;
+    }
 
-section #related .table1{
-    width: 120%;
-    height: auto;
-    margin-right: 10%;
-}
+    section #reviews ul li{
+        float: left;
+    }
 
-
-section #reviews{
-    margin-left: 10%;
-    margin-right: 10%;
-    margin-bottom: 10%;
-    /* background-color: antiquewhite; */
-}
-
-section #reviews h3 a{
-    color: #57218F;
-}
-
-section #reviews h3 a:hover{
-    opacity: 0.5;
-    transition: 0.5s;
-}
-
-section #reviews ul li{
-    float: left;
-}
-
-section #reviews ul li p{
-    line-height: 1.5em;
-}
+    section #reviews ul li p{
+        line-height: 1.5em;
+    }
 }
 
