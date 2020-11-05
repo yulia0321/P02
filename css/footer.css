@@ -1,0 +1,62 @@
+/*FOOTER*/
+footer a{
+    color: #57218F;
+}
+footer #site_map {
+    margin-left: 10%;
+    margin-right: 10%;
+    padding-top: 2.5%;
+}
+
+footer #divider{
+    margin: 1.5% 10%; /*vertical horizontal*/
+    background-color: #57218F;
+    height: 1.5px;
+}
+
+/*COPYRIGHT*/
+footer #copyright{
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+footer #copyright li{
+    display: inline-block;
+    margin-bottom: 2.8%;
+}
+
+footer #copyright li:last-child{
+    color: #57218F;
+    margin-left: -1%;
+}
+
+footer #copyright img{
+    width: 20px;
+    height: 20px;
+    padding-right: 10px;
+}
+
+
+@media ( max-width: 768px ) { /*가로길이가 768px 이하*/
+    footer {
+        margin-top: 20%;
+        background-color: #EEEEFF;
+        position: relative;
+        bottom: 0px;
+    }
+}
+@media(max-width:376px){ /*가로길이가 376px 이하*/
+    footer {
+        margin-top: 40%;
+        background-color: #EEEEFF;
+    }
+}
+@media (min-width: 769px ) { /*가로길이가 769px 이상*/
+    footer {
+        width: 100%;
+        background-color: #EEEEFF;
+        margin-top: 15%;
+        font-family: 'Roboto', sans-serif;
+    }
+
+}
