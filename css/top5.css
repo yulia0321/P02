@@ -1,6 +1,8 @@
-/*Mobile Screen*/
 body{
     font-family: 'Roboto', sans-serif;
+}
+hr{
+    margin: 3% auto;
 }
 @media(max-width: 600px){
     /*SECTION*/

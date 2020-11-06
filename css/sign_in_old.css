@@ -1,21 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Parisienne&family=Roboto:wght@300;400;700&display=swap');
-
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
-
-
 /*Desktop Screen*/
-@media (min-width:600px){
-    .table1{
-        width: 100%;
-        height: auto;
-        margin-right: 10%;
-    }
-
-    header #logo{
-        margin-left: 10%;
-        margin-top: 3%;
-    }  
-    
+@media (min-width:600px){    
     section #signIn{
         margin-left: 25%;
         margin-top: 25%;
@@ -24,7 +8,7 @@
 
 }
 
-/*Text Entry*/
+
 @media (min-width:600px){
     
     section #signIn {
@@ -59,7 +43,7 @@
     margin-bottom: -2%;
     }
 
-    .signInButton {
+    section #signIn input[type=signIn] {
     width: 20%;
     background-color: #EEEEFF;
     font-family: 'Roboto', sans-serif;
@@ -73,13 +57,8 @@
     cursor: pointer;
     }
 
-    .signInButton:hover {
+    section #signIn input[type=signIn]:hover {
         background-color: #57218F;
-        color:white;
-    }
-
-    section #button {
-        margin-top: 0%;
     }
 
 }
@@ -138,59 +117,7 @@
     background-color: #57218F;
     color: #EEEEFF;
     }
-
-    section #button {
-        margin-top: 0%;
-    }
 }
-
-
-@media (min-width:600px){
-    #login{
-        margin-top: 5%;
-        margin-right: 10%;
-        float: right;
-        width: 15%;
-        height: 40px;
-    }
-
-    #login li{
-        float: left;
-        width: 48%;
-        line-height: 40px;
-        text-align: center;
-        margin-bottom: 2px;
-    }
-
-    #login li:nth-child(2){
-        float: right;
-    }
-
-    #login li a{
-        display: block;
-        color: #57218F;
-        font-family: 'Roboto', sans-serif;
-        font-size: medium;
-    }
-
-    #login li:nth-child(2) a{
-        display: block;
-        color: #57218F;
-        background-color: #EEEEFF;
-    }
-
-    #login li:nth-child(1) a:hover{
-        border: 1.5px solid #57218F;
-    }
-
-
-    #login li:nth-child(2) a:hover{
-        background-color: #57218F; 
-        color: #EEEEFF;
-        transition: 0.5s;
-    }
-}
-
 
 section{
     font-family: 'Roboto', sans-serif;

@@ -21,7 +21,7 @@
         position: fixed;
         z-index: 1000;
         top: 10%;
-    } 
+    }  
     header{
         width: 100%;
         height: 100px;
@@ -121,12 +121,6 @@
         background-color: #ffffff;
         z-index: 1000;
     }
-}
-
-#nav_sample{
-    width: 100%;
-    z-index: 1000;
-    top: 10%;
 }
 
 #logo{
@@ -244,7 +238,7 @@
 
     /*second level*/
     #nav li ul{ 
-        background-color: #EEEEFF; /*second level background*/
+        background-color: #57218F; /*second level background*/
         position: absolute;
         display: none; /*안보이게하기*/
         width: 20%;
@@ -256,75 +250,20 @@
 
     #nav li ul li {
         padding: 3% 0;
-        border-top: 1px solid #57218F ;
+        border-top: 1px solid #EEEEFF ;
     }       
     #nav li ul li:nth-child(1) {
         border-top: 1px solid #57218F ;
     }
     #nav li ul li:hover{
-        background-color: #57218F;
+        background-color: #EEEEFF;
         transition: 0.8s;
     }
     #nav li ul li:hover a{
-        color: #EEEEFF;     
+        color: #57218F;     
         transition: 0.8s;   
     }
 
     #nav li ul li a{
-        color: #57218F;
-    }  
-
-/*nav_sample*/
-
-    #nav_sample>ul>li{
-        width: 20%;
-        background-color: #57218F;
-        float: left;
-        padding: 1.1% 0;
-        text-align: center;
-    }
-    #nav_sample>ul>li:hover{
-        background-color: #EEEEFF;
-        transition: 0.8s;
-    }
-    #nav_sample>ul>li:hover>a{
-        color: #57218F;
-        transition: 0.8s;
-    }
-    #nav_sample > ul > li > a { 
         color: #EEEEFF;
-        font-size: 120%;
-        font-family: 'Roboto', sans-serif;
-    }
-
-    /*second level*/
-    #nav_sample li ul{ 
-        background-color: #EEEEFF; /*second level background*/
-        position: absolute;
-        display: none; /*안보이게하기*/
-        width: 20%;
-        top: 100%;
-    }
-    #nav_sample li:hover ul{
-        display: block; /*호버하면 보이게 하기*/
-    }
-
-    #nav_sample li ul li {
-        padding: 3% 0;
-        border-top: 1px solid #57218F ;
-    }       
-    #nav_sample li ul li:nth-child(1) {
-        border-top: 1px solid #57218F ;
-    }
-    #nav_sample li ul li:hover{
-        background-color: #57218F;
-        transition: 0.8s;
-    }
-    #nav_sample li ul li:hover a{
-        color: #EEEEFF;     
-        transition: 0.8s;   
-    }
-
-    #nav_sample li ul li a{
-        color: #57218F;
     }  

@@ -2,13 +2,14 @@
 footer a{
     color: #57218F;
 }
-#site_map {
-    margin: 0 10%;
-    padding-top: 2.5%;
-}
 #site_map>ul>li{
     width: 20%;
     float: left;
+}
+footer #site_map {
+    margin-left: 10%;
+    margin-right: 10%;
+    padding-top: 2.5%;
 }
 
 footer #divider{
@@ -50,8 +51,7 @@ footer #copyright img{
 }
 @media(max-width:376px){ /*가로길이가 376px 이하*/
     footer {
-        margin-top: 40%;
-        background-color: #EEEEFF;
+        display: none;
     }
 }
 @media (min-width: 769px ) { /*가로길이가 769px 이상*/

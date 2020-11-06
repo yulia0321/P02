@@ -1,0 +1,30 @@
+section a{
+    color: black;
+}
+h2, h3, h4{
+    color: #57218F;
+}
+@media ( max-width: 768px ) { /*가로길이가 768px 이하*/
+    section{
+        position: relative;
+        top: 250px;
+        margin: 0 10%;
+        height: 700px;
+    }
+}
+@media(max-width:376px){ /*가로길이가 376px 이하*/
+    section{
+        position: relative;
+        top: 150px;
+        margin: 0 10%;
+        height: 780px;
+    }
+}
+@media (min-width: 769px ) { /*가로길이가 769px 이상*/
+    section{
+        position: relative;
+        top: 250px;
+        margin: 0 10%;
+        height: 700px;
+    }
+}

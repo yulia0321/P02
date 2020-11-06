@@ -3,18 +3,18 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Account Page</title>
+    <title>P02</title>
 
+    <link href="css/join_us.css" rel="stylesheet">
     <link href="css/main.css" rel="stylesheet">
     <link href="css/header_nav.css" rel="stylesheet">
     <link href="css/footer.css" rel="stylesheet">
-    <link href="css/account.css" rel="stylesheet">
-
+    <link href="css/payment.css" rel="stylesheet">
+      
 </head>
 
 
 <body>
-
     <header>
         <a href="mobile_nav.html"> 
             <div id="mobile_nav"> </div> 
@@ -38,7 +38,6 @@
             </ul>
         </div>
     </header>
-
 
     <nav id="nav" >
 
@@ -108,86 +107,136 @@
     </nav>
 
     <section>
-        <div id="account">
-            <h2>Profile</h2>
-            <img src="img/profile/profile.png" alt="profile picture">
-                <a href="#">Change Profile Picture</a>
-        </div>
-
-        <div id="setting">
-            <h3>Name</h3>
-            Michelle Green
-
-            <hr>
-           
-            <h3>Email</h3>
-            michgr@gmail.com
-
-            <hr>
-
-            <h3>Password</h3>
-            Password last changed 2 years ago    
-        </div>
-
-        <div id="plan">
-            <h2>Plan</h2>
-            <!-- <h3>My Plans</h3> -->
-            <ul>
-                <li><h3>My Plan</h3></li>
-                <li><a href="#">Edit</a></li>
-                <li>New Year Promotion</li>
-                <li>$22. 95 / month</li>
+        <!--Log in-->
+        <div id="signIn">
+            <div id="textEntrySection">
+            <h2>Payment Form</h2>
+            <br>
+            <form class="detailedEntry">
+                <label for="fname">First Name:</label>
+                <br>
+                <input type="text" id="fname" name="fname">
+            </form>
+            
+            <form class="detailedEntry">
+                <label for="fname">Last Name:</label>
+                <br>
+                <input type="text" id="fname" name="fname">
+            </form>  
+            <br>
+            <form class="textEntry">
+                <label for="fname">Phone Number:</label>
+                <input type="text" id="fname" name="fname">
+            </form>     
                 
-            </ul>
-            <hr>
-        </div>
-
-        <div id="billing_history">
-            <ul>
-                <li><h3>Billing History</h3></li>
-                <li><a href="#">View More</a></li>
-                <li><h4>02 / October / 2020</h4></li>
-                <li>New Year Promotion</li>
-                <li>$22. 95 / month</li>
+            <form class="textEntry">
+                <label for="fname">Address:</label>
+                <input type="text" id="fname" name="fname">
+            </form> 
                 
-            </ul>
-            <hr>
-        </div>
-
-        <div id="billing_info">
-            <h2>Billing Information</h2>
-            <ul>
-                <li><a href="#">Edit</a></li>
-                <li><h3>Name on Card</h3></li>
-                <li>Michelle Green</li>
+            <form class="textEntry">
+                <label for="fname">Postal Code:</label>
+                <input type="text" id="fname" name="fname">
+            </form>
                 
-            </ul>
-            <hr>
-
-            <div id="card_number">
-                <ul>
-                    <li><h3>Card Number</h3></li>
-                    <li>**** **** **** 2950 / VISA</li>
-                    
-                </ul>
-                <hr>
+            <form class="textEntry">
+                <label for="fname">Country:</label>
+                <input type="text" id="fname" name="fname">
+            </form>
+            
+            <form class="textEntry">
+                <label for="fname">Province:</label>
+                <input type="text" id="fname" name="fname">
+            </form>
+            <br>
+            <form class="detailedEntry">
+                <label for="fname">Credit Card:</label>
+                <br>
+                <input type="text" id="fname" name="fname">
+            </form>
+            
+            <form class="detailedEntry">
+                <label for="fname">CVC:</label>
+                <br>
+                <input type="text" id="fname" name="fname">
+            </form>  
+                
+            <br>
+                
             </div>
-
-            <div id="bill_address">
-                <ul>
-                    <li><h3>Billing Address</h3></li>
-                    <li>
-                        801 - 9323 University Drive <br>
-                        Burnaby, BC, Canada <br>
-                        V3B 0K9
-                    </li>
-                </ul>
-            </div>
-        </div>
+            
+            <div id="button">
+                <a href = "account.html">
+                    <button class="signInButton">Save</button>
+                </a>
+            </div>         
+        </div>   
     </section>
 
+    <footer>
+        <div id="site_map">
 
+        <ul>
+        <li class="sns">
+        <ul>
+        <li><a href="#">Facebook</a></li>
+        <li><a href="#">Twitter</a></li>
+        <li><a href="#">Instagram</a></li>
+        </ul>
+        </li>
 
+        <li class="use">
+        <ul>
+        <li><a href="#">Conditions</a></li>
+        <li><a href="#">Privacy Policy</a></li>
+        <li><a href="#">Advertisement</a></li>
+        <li><a href="#">Refunds</a></li>
+        </ul>
+        </li>
+
+        <li class="promo">
+        <ul>
+        <li><a href="#">Gift Centre</a></li>
+        <li><a href="#">Promotion</a></li>
+        <li><a href="#">Code</a></li>
+        </ul>
+        </li>
+
+        <li class="about">
+        <ul>
+        <li><a href="about_us.html">About Us</a></li>
+        <li><a href="#">Help</a></li>
+        <li><a href="#">Setting</a></li>
+        <li><a href="contact.html">Contact Us</a></li>
+        </ul>
+        </li>
+
+        <li class="lang">
+        <ul>
+        <li><a href="http://www.sfu.ca/~cla328/IAT%20339/Test/P02%20-%2011.5%20채연/styleGuide.html">Style Guide</a></li>
+        <li><a href="citation.html">Citation</a></li>
+        <li><a href="https://github.com/yulia0321/P02">Git Repository</a></li>
+        </ul>
+        </li>
+        </ul>
+
+        </div>
+
+        <div id="divider">
+
+        </div>
+
+        <div id="copyright">
+        <ul>
+        <li>
+        <img src="img/logo/logo.png" alt="">
+        </li>
+        <li>
+        <p>Copyright © 2020 Aurora. All Rights Reserved</p>
+        </li>
+        </ul>
+        </div>
+    </footer>
 
 </body>
 </html>
